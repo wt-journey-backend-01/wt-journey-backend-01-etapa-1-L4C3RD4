@@ -1,0 +1,35 @@
+body{
+    background-color: #EAEAEA;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+.form-holder{
+    margin-top: 5% !important;
+    margin: auto;
+    max-width: 25%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.form-holder input,
+.form-holder textarea,
+.form-holder button {
+  width: 75%;       
+  box-sizing: border-box; 
+  margin-bottom: 10px; 
+}
+.form-holder button{
+    padding: 5px;
+    background-color:#283897 ;
+    border-radius: 7px;
+    border: none;
+    color: white;
+}
+.form-holder a{
+    text-decoration: none;
+
+}

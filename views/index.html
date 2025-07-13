@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Pagina inicial</title>
+</head>
+<body>
+  
+
+  <main>
+    
+    <div class="form-holder">
+      <h1>DevBurger - Pedido</h1>
+       <form action="/sugestao" method="GET">
+      <label for="nome">Nome do cliente:</label>
+      <input type="text" id="nome" name="nome" required /><br>
+        
+      <label for="ingredientes">Ingredientes desejados:</label>
+      <textarea id="ingredientes" name="ingredientes" required></textarea>
+
+      <button type="submit">Enviar pedido</button><br>
+       <a href="/contato">Contato</a>
+      <a href="/api/lanches">Ver Lanches</a>
+    </form>
+    </div>
+   
+
+
+  </main>
+
+</body>
+</html>
